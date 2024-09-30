@@ -1,0 +1,17 @@
+{
+    "name": "user-address-app",
+    "version": "1.0.0",
+    "description": "A simple Node.js app to register users and store their addresses using MySQL.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "mysql2": "^3.2.0",
+        "dotenv": "^16.0.3",
+        "body-parser": "^1.20.2"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}
